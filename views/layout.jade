@@ -1,7 +1,15 @@
 doctype html
 html
   head
-    title= title
+    title= title ? title + ' | Allison Palum' : 'Allison Palum'
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
+    nav.navbar
+      div.container
+        div.navbar-header
+          a(href="/") Allison Palum
+        ul.nav
+          li #[a(href="/photos") Photos]
+          li #[a(href="/what-im-listening-to") What Im listening to]
+          li #[a(href="/resume") Resume]
     block content
