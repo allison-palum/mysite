@@ -1,0 +1,29 @@
+body {
+  padding: 24px;
+  font-family: 'Roboto', sans-serif; }
+
+a {
+  color: cornflowerblue; }
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex; }
+
+.col-1 {
+  flex-basis: 8.333%; }
+
+.col-2 {
+  flex-basis: 16.666%; }
+
+.col-3 {
+  flex-basis: 25%; }
+
+.col-4 {
+  flex-basis: 33.333%; }
+
+.col-5 {
+  flex-basis: 41.666%; }
+
+.col-6 {
+  flex-basis: 50%; }
