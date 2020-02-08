@@ -3,13 +3,13 @@ html
   head
     title= title ? title + ' | Allison Palum' : 'Allison Palum'
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(href="https://fonts.googleapis.com/css?family=Roboto&display=swap", rel="stylesheet")
   body
-    nav.navbar
-      div.container
-        div.navbar-header
-          a(href="/") Allison Palum
-        ul.nav
-          li #[a(href="/photos") Photos]
-          li #[a(href="/what-im-listening-to") What Im listening to]
-          li #[a(href="/resume") Resume]
+    nav.navbar.grid
+      div.navbar-header.col-1-3
+        a(href="/") Allison Palum
+      ul.nav-list.col-2-3
+        li #[a(href="/photos") Photos]
+        li #[a(href="/what-im-listening-to") What Im listening to]
+        li #[a(href="/resume") Resume]
     block content

@@ -1,14 +1,15 @@
 extends layout
 
 block content
-    h1= title
-    p Film photography is a hobby of mine. Most of the photos I take are nothing special, but every role I shoot has one or two that I'm proud of.
-    div.image-container
-        img(src="/images/market_lane_coffee.jpg", width="1000", class="image")
-        p.description Market Lane Coffee in Prahan, Melbourne, Victoria (2019)
-    div.image-container
-        img(src="/images/yarra_valley.jpg", width="1000", class="image")
-        p.description Yarra Valley, Victoria (2019)
-    div.image-container
-        img(src="/images/point_addis.jpg", width="1000", class="image")
-        p.description Point Addis, Victoria (2019)
+    section.photos--page
+        h1= title
+        p Film photography is a hobby of mine. Most of the photos I take are nothing special, but every role I shoot has one or two that I'm proud of.
+        figure.image-container
+            img(src="/images/market_lane_coffee.jpg", width="1000", class="image")
+            figcaption.description Market Lane Coffee in Prahan, Melbourne, Victoria (2019)
+        figure.image-container
+            img(src="/images/yarra_valley.jpg", width="1000", class="image")
+            figcaption.description Yarra Valley, Victoria (2019)
+        figure.image-container
+            img(src="/images/point_addis.jpg", width="1000", class="image")
+            figcaption.description Point Addis, Victoria (2019)
