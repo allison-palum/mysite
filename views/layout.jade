@@ -5,11 +5,11 @@ html
     link(rel='stylesheet', href='/stylesheets/styles.css')
     link(href="https://fonts.googleapis.com/css?family=Roboto&display=swap", rel="stylesheet")
   body
-    nav.navbar.container
-      div.navbar-header.col.col-6
-        a(href="/") Allison Palum
-      ul.nav-list.col.col-6.container
-        li.col.col-2 #[a(href="/photos") Photos]
-        li.col.col-2 #[a(href="/what-im-listening-to") What Im listening to]
-        li.col.col-2 #[a(href="/resume") Resume]
+    nav.navbar
+      ul.nav-list.container
+        li.col.col-2 #[a(href="/") Allison Palum]
+        span.col.col-6
+        li.col.col-1 #[a(href="/photos") Photos]
+        li.col.col-1 #[a(href="/what-im-listening-to") What Im listening to]
+        li.col.col-1 #[a(href="/resume") Resume]
     block content
