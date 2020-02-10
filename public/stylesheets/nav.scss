@@ -1,0 +1,43 @@
+.navbar {
+    height: 48px;
+    width: 100%; 
+
+    .nav-list  {
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+
+        li {
+            display: inline-block;
+            list-style-type: none;
+            
+            a {
+                text-decoration: none;
+            }
+        }
+
+        &.left {
+            float: left;
+
+            li {
+                a {
+                    font-size: 24px;
+                }
+            }
+        }
+
+        &.right {
+            float: right;
+
+            li {
+                margin-left: 24px;
+                border-bottom: 1px solid $col-text;
+                padding-bottom: 8px;
+
+                &:first-of-type {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}

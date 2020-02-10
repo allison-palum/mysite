@@ -6,10 +6,10 @@ html
     link(href="https://fonts.googleapis.com/css?family=Roboto&display=swap", rel="stylesheet")
   body
     nav.navbar
-      ul.nav-list.container
-        li.col.col-2 #[a(href="/") Allison Palum]
-        span.col.col-6
-        li.col.col-1 #[a(href="/photos") Photos]
-        li.col.col-1 #[a(href="/what-im-listening-to") What Im listening to]
-        li.col.col-1 #[a(href="/resume") Resume]
+      ul.nav-list.left
+        li #[a(href="/") allison palum]
+      ul.nav-list.right
+        li #[a(href="/photos") photos]
+        li #[a(href="/what-im-listening-to") what im listening to]
+        li #[a(href="/resume") resume]
     block content
