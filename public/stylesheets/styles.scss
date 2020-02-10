@@ -15,4 +15,10 @@ body {
 
 a {
     color: $col-text;
+    text-decoration: none;
+    border-bottom: 1px solid $col-text;
+
+    &:hover {
+        color: $col-text-hover;
+    }
 }

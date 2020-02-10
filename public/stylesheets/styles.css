@@ -50,7 +50,7 @@
       display: inline-block;
       list-style-type: none; }
       .navbar .nav-list li a {
-        text-decoration: none; }
+        border-bottom: none; }
     .navbar .nav-list.left {
       float: left; }
       .navbar .nav-list.left li a {
@@ -73,4 +73,8 @@ body {
     margin: 96px 0; }
 
 a {
-  color: #2B2D2F; }
+  color: #2B2D2F;
+  text-decoration: none;
+  border-bottom: 1px solid #2B2D2F; }
+  a:hover {
+    color: #D3D3D3; }
